@@ -1,0 +1,13 @@
+def port(n,m):
+    import random
+    num = random.randint(10, 99)
+    pin= random.randint(10, 99)
+    print(f"the name of first student is ",n,"and the number alloted to him is ",num)
+    print(f"the name of another student is ",m,"and the number alloted to him is ",pin)
+lis=[]
+for i in range(3):
+    a=input("enter the name ")
+    b=input("enter another name ")
+    lis.append(a)
+    lis.append(b)
+port(a,b)
